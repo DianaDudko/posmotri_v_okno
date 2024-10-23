@@ -54,7 +54,7 @@ ol {
 
 .button {
   color: rgb(255, 255, 255);
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -84,8 +84,8 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
-  margin-top: 21px;
+  align-self: flex-end;
+  padding: 7px 0;
 }
 
 .more-button {
@@ -112,6 +112,7 @@ ol {
   width: 711px;
   height: 386px;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -156,7 +157,7 @@ ol {
   border: none;
   border-top: solid 1px rgba(255, 255, 255);
   border-bottom: solid 1px rgba(255, 255, 255);
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -192,7 +193,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -263,12 +264,15 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
   line-height: 100%;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  overflow: hidden;
 }
 
 .content__video-card-description {

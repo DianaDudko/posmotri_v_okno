@@ -63,6 +63,7 @@ ol {
   cursor: pointer;
   border: 1px solid #fff;
   text-align: center;
+  padding: 5px 0;
 }
 
 .button:focus {
@@ -85,12 +86,10 @@ ol {
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
-  padding: 7px 0;
 }
 
 .more-button {
   width: 399px;
-  height: 34px;
 }
 
 .content {
